@@ -16,7 +16,7 @@ export default function Header() {
                     <li className={`cursor-pointer hover:text-white transition-colors ${ pathName === '/' ? 'text-white' : 'text-white/50' }`}>Home</li>
                 </Link>
                 <Link href={'/projects'} >
-                    <li className={`cursor-pointer hover:text-white transition-colors ${ pathName === '/projects' ? 'text-white' : 'text-white/50' }`}>Projects</li>
+                    <li className={`cursor-pointer hover:text-white transition-colors ${ pathName.startsWith('/projects') ? 'text-white' : 'text-white/50' }`}>Projects</li>
                 </Link>
             </ul>
             <div className="flex items-center gap-5">
