@@ -3,20 +3,9 @@ import { ProjectInterface } from "@/Interfaces/ProjectsInterface";
 export const ProjectsData:ProjectInterface[] = [
     {
         id: 1,
-        title: "MST Finicel",
-        srcImage: "/images/img1.png",
-        description: "A scalable financial analytics platform delivering advanced insights for institutional clients."
+        title: "SmackFlow",
+        srcImage: "/images/smackflow.png",
+        description: "SmackFlow is a modern platform focused on artificial intelligence and neural networks, built for everyone — from designers and developers to marketers, students, and office professionals."
     },
-    {
-        id: 2,
-        title: "Другой проект",
-        srcImage: "/images/img2.png",
-        description: "A scalable financial analytics platform delivering advanced insights for institutional clients."
-    },
-    {
-        id: 3,
-        title: "Третий проект",
-        srcImage: "/images/img3.png",
-        description: "A scalable financial analytics platform delivering advanced insights for institutional clients."
-    }
+    
 ]
