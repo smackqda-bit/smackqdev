@@ -15,4 +15,5 @@ const nextConfig: NextConfig = {
   assetPrefix: process.env.NODE_ENV === "production" ? `/${repo}/` : "",
 };
 
+
 export default nextConfig;
