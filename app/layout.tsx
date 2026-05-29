@@ -22,13 +22,6 @@ export const metadata: Metadata = {
     description: "Frontend Developer Portfolio",
     url: "https://smackq.space",
     siteName: "SmackQdev",
-    images: [
-      {
-        url: "https://smackq.space/preview.png",
-        width: 1200,
-        height: 630,
-      },
-    ],
     locale: "en_US",
     type: "website",
   },
